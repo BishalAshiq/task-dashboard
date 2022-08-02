@@ -1,0 +1,25 @@
+.headSec {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.headerItems {
+  background: rgb(166, 166, 166);
+  background: linear-gradient( #fb5786, #FAC7B6
+  );
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.pic1{
+    width: 50px;
+    background-color: rgb(238, 237, 236);
+    color: aliceblue;
+    border-radius: 100%;
+}

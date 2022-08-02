@@ -19,7 +19,7 @@ const Navigation = () => {
   return (
     <div className="nav">
       <div>
-        <h1>Dashboard</h1>
+        <h1 style={{ fontWeight: "bold" }}>Dashboard</h1>
         <h6 style={{ color: "rgb(51, 51, 51)" }}>Welcome to Davur Admin</h6>
       </div>
       <form className="form">
@@ -79,8 +79,8 @@ const Navigation = () => {
       >
         <img style={{ width: 40, marginRight: 10 }} src={profilePic} alt="" />
         <div>
-          <h4>Biden</h4>
-          <h6 style={{ color: "rgb(130, 133, 135)" }}>Admin</h6>
+          <h4 style={{ fontWeight: "bold" }}>Biden</h4>
+          <h6 style={{ color: "rgb(130, 133, 135)", marginTop: -7 }}>Admin</h6>
         </div>
         <Dropdown>
           <Dropdown.Toggle

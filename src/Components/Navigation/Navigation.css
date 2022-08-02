@@ -9,5 +9,11 @@
     color: rgb(130, 133, 135);
 }
 .form{
+    color: #EA7A9A;
     border: 1px solid rgb(255, 255, 255);
+}
+input{
+    color: #c0063b;
+    border-radius: 10px;
+    font-size: 800;
 }

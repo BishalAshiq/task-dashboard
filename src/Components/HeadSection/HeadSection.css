@@ -1,5 +1,5 @@
 .headSec {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 250, 250);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -7,10 +7,9 @@
 }
 
 .headerItems {
-  background: rgb(166, 166, 166);
   background: linear-gradient( #fb5786, #FAC7B6
   );
-  color: rgb(65, 63, 63);
+  color: rgb(243, 243, 243);
   display: flex;
   justify-content: space-between;
   align-items: center;

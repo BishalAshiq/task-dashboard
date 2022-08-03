@@ -48,6 +48,21 @@ const OrderSummary = () => {
             <button className="order-button">More Details</button>
         </Col>
       </Row>
+
+      <div className="order-Lpart">
+      <div>
+      <h4>25</h4>
+        <p>On Delivered</p>
+      </div>
+      <div>
+      <h4>60</h4>
+        <p>Delivered</p>
+      </div>
+      <div>
+      <h4>7</h4>
+        <p>Canceled</p>
+      </div>
+      </div>
     </div>
   );
 };

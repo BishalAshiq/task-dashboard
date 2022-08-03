@@ -58,7 +58,7 @@ const Revenue = () => {
           bottom: 0,
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="3 8" />
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />

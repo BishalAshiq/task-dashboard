@@ -23,8 +23,38 @@
     border: 1px solid white;
     border-radius: 15px;
 }
-
+.order-Lpart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
 
 
 
 /* Revenue */
+.Rev-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Monthly{
+    background-color: #fdf1f4;
+    color: #fb5786;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.rev-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.rev-button{
+    background-color: #ffffff;
+    color: #fb5786;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(244, 137, 172);
+}

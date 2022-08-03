@@ -8,6 +8,7 @@ import {
     CartesianGrid,
     Tooltip,
   } from 'recharts';
+import TransactionsSummaty from '../TransactionsSummaty/TransactionsSummaty';
 
 
 
@@ -53,8 +54,7 @@ const CustomerMap = () => {
           margin={{
             top: 5,
             right: 5,
-            left: 5,
-            bottom: 5,
+            left: 5
           }}
         >
           <CartesianGrid strokeDasharray="3 4" />

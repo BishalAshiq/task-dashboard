@@ -7,13 +7,13 @@ import Revenue from "./Revenue";
 
 const MiddleSection = () => {
   return (
-    <Container style={{ marginTop: 60 }}>
+    <Container style={{ marginTop: 60, backgroundColor: "rgb(255, 250, 250)"}} >
       <Row>
         <Col xs={6}>
           <OrderSummary></OrderSummary>
         </Col>
 
-        <Col xs={6}>
+        <Col xs={6} id="Rev-Sec">
           <div className="Rev-nav">
             <div>
               <h3>Revenue</h3>
@@ -34,7 +34,7 @@ const MiddleSection = () => {
 
           <div className="rev-head">
             <div>
-              <p>Income</p>
+              <p style={{marginBottom: -7}}>Income</p>
               <h3>$126,000</h3>
             </div>
             <h6 className="rev-button">All food</h6>

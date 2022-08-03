@@ -5,16 +5,19 @@
   border-radius: 100%;
   display: grid;
   place-items: center;
-  padding: 40px 5px 40px 5px;
+  padding: 33px 5px 33px 5px;
 }
 .chartIn{
     background-color: aliceblue;
     border-radius: 100%;
-    padding: 50px 50px 40px 50px;
+    padding: 50px 40px 40px 40px;
 }
 
+#Order-sec{
+    border: 1px solid rgb(242, 242, 242);
+    padding: 20px 20px 20px 20px;
+}
 
-/* Button  */
 .order-button{
     background-color: #fbd9e3;
     color: #fb5786;
@@ -34,9 +37,15 @@
 
 
 /* Revenue */
+#Rev-Sec{
+    border: 1px solid rgb(242, 242, 242);
+    padding: 20px 20px 20px 20px;
+}
+
 .Rev-nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .Monthly{
@@ -50,6 +59,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 .rev-button{
     background-color: #ffffff;

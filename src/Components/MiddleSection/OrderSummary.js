@@ -7,7 +7,7 @@ import './MiddleSection.css';
 const OrderSummary = () => {
 
   return (
-    <div>
+    <div id="Order-sec">
       <Row>
         <Col xs={6}>
           <h3>Order Summary</h3>

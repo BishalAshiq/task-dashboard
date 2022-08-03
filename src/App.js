@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BottomSection from './Components/BottomSection/BottomSection';
+import BottomSection from './Components/BottomSection/BottomSection/BottomSection';
+
 import HeadSection from './Components/HeadSection/HeadSection';
 import MiddleSection from './Components/MiddleSection/MiddleSection';
 import Navigation from './Components/Navigation/Navigation';

@@ -10,16 +10,15 @@
   background: rgb(166, 166, 166);
   background: linear-gradient( #fb5786, #FAC7B6
   );
-  color: white;
+  color: rgb(65, 63, 63);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
+  padding: 15px 20px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
-.pic1{
-    width: 50px;
-    background-color: rgb(238, 237, 236);
-    color: aliceblue;
-    border-radius: 100%;
+.pic{
+   width: 80px;
 }

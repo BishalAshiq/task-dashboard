@@ -1,0 +1,30 @@
+/* Order summary */
+.piechart1{
+    background: linear-gradient( #fb5786, #FAC7B6
+  );
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  padding: 40px 5px 40px 5px;
+}
+.chartIn{
+    background-color: aliceblue;
+    border-radius: 100%;
+    padding: 50px 50px 40px 50px;
+}
+
+
+/* Button  */
+.order-button{
+    background-color: #fbd9e3;
+    color: #fb5786;
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+
+
+
+/* Revenue */

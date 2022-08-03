@@ -9,8 +9,8 @@ function App() {
     <div className="App">
      <Navigation></Navigation>
       <HeadSection></HeadSection>
-     {/*<MiddleSection></MiddleSection>
-     <BottomSection></BottomSection> */}
+     <MiddleSection></MiddleSection>
+     {/* <BottomSection></BottomSection> */}
     </div>
   );
 }

@@ -41,7 +41,7 @@ const BottomSection = () => {
                 <h3>87,456</h3>
                 <p>Order</p>
                 </div>
-                <img style={{width: 150}} src={g1} alt=""/>
+                <img data-aos="flip-up" style={{width: 150}} src={g1} alt=""/>
               </div>
             </Col>
           </Row>

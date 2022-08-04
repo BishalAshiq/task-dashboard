@@ -1,11 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import './MiddleSection.css';
-
+import "./MiddleSection.css";
 
 const OrderSummary = () => {
-
   return (
     <div id="Order-sec">
       <Row>
@@ -17,7 +15,9 @@ const OrderSummary = () => {
         <Col xs={6}>
           <Nav variant="tabs" defaultActiveKey="/home">
             <Nav.Item>
-              <Nav.Link href="/home" disabled>Monthly</Nav.Link>
+              <Nav.Link href="/home" disabled>
+                Monthly
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="link-1" disabled>
@@ -33,35 +33,34 @@ const OrderSummary = () => {
 
       <Row>
         <Col xs={6}>
-            <div className="piechart1">
-                <div className="chartIn">
-                    <h2>85%</h2>
-                </div>
+          <div className="piechart1" data-aos="flip-up">
+            <div className="chartIn">
+              <h2>85%</h2>
             </div>
+          </div>
         </Col>
 
-
         <Col xs={6}>
-            <h3 style={{fontWeight: "bold"}}>$456,005.56</h3>
-            <p>form $500000.00</p>
-            <p>Lorem ipsum dolorsit amet, consectetur adipiscing elit, sed do</p>
-            <button className="order-button">More Details</button>
+          <h3 style={{ fontWeight: "bold" }}>$456,005.56</h3>
+          <p>form $500000.00</p>
+          <p>Lorem ipsum dolorsit amet, consectetur adipiscing elit, sed do</p>
+          <button className="order-button">More Details</button>
         </Col>
       </Row>
 
       <div className="order-Lpart">
-      <div>
-      <h4>25</h4>
-        <p>On Delivered</p>
-      </div>
-      <div>
-      <h4>60</h4>
-        <p>Delivered</p>
-      </div>
-      <div>
-      <h4>7</h4>
-        <p>Canceled</p>
-      </div>
+        <div style={{border: "1px solid #E9E9E9", padding: "3px 5px"}}>
+          <h4>25</h4>
+          <p>On Delivered</p>
+        </div>
+        <div style={{border: "1px solid #E9E9E9", padding: "3px 5px"}}>
+          <h4>60</h4>
+          <p>Delivered</p>
+        </div>
+        <div style={{border: "1px solid #E9E9E9", padding: "3px 5px"}}>
+          <h4>7</h4>
+          <p>Canceled</p>
+        </div>
       </div>
     </div>
   );

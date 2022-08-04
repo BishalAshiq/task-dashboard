@@ -1,6 +1,6 @@
 # This Is an Customers Dashboard User Interface
 
-This project was bootstrapped with and the live server is this(https://github.com/facebook/create-react-app).
+This project was bootstrapped with and the live server is this(https://customers-dasboard.netlify.app/).
 
 
 ### In the project You can see many things, like: 

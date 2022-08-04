@@ -1,0 +1,13 @@
+.trans-div{
+    border: 1px solid rgb(233, 233, 233);
+}
+.Transaction-Summ{
+    display: flex;
+    justify-content: space-between;
+}
+.items-trans{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 40px;
+}

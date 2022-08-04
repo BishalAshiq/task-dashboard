@@ -1,70 +1,69 @@
 /* Order summary */
-.piechart1{
-    background: linear-gradient( #fb5786, #FAC7B6
-  );
+.piechart1 {
+  background: linear-gradient(#fb5786, #fac7b6);
   border-radius: 100%;
   display: grid;
   place-items: center;
   padding: 33px 5px 33px 5px;
-}
-.chartIn{
-    background-color: aliceblue;
-    border-radius: 100%;
-    padding: 50px 40px 40px 40px;
+  width: 100%;
 }
 
-#Order-sec{
-    border: 1px solid rgb(242, 242, 242);
-    padding: 20px 20px 20px 20px;
+.chartIn {
+  background-color: aliceblue;
+  border-radius: 100%;
+  padding: 50px 50px 40px 50px;
 }
 
-.order-button{
-    background-color: #fbd9e3;
-    color: #fb5786;
-    font-weight: 700;
-    padding: 10px 20px 10px 20px;
-    border: 1px solid white;
-    border-radius: 15px;
-}
-.order-Lpart{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
+#Order-sec {
+  border: 1px solid rgb(242, 242, 242);
+  padding: 20px 20px 20px 20px;
 }
 
-
+.order-button {
+  background-color: #fbd9e3;
+  color: #fb5786;
+  font-weight: 700;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.order-Lpart {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
 
 /* Revenue */
-#Rev-Sec{
-    border: 1px solid rgb(242, 242, 242);
-    padding: 20px 20px 20px 20px;
+#Rev-Sec {
+  border: 1px solid rgb(242, 242, 242);
+  padding: 20px 20px 20px 20px;
 }
 
-.Rev-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.Rev-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.Monthly{
-    background-color: #fdf1f4;
-    color: #fb5786;
-    font-weight: 600;
-    border-radius: 15px;
+.Monthly {
+  background-color: #fdf1f4;
+  color: #fb5786;
+  font-weight: 600;
+  border-radius: 15px;
 }
-.rev-head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
+.rev-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.rev-button{
-    background-color: #ffffff;
-    color: #fb5786;
-    padding: 8px 15px;
-    border-radius: 20px;
-    border: 1px solid rgb(244, 137, 172);
+.rev-button {
+  background-color: #ffffff;
+  color: #fb5786;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(244, 137, 172);
 }
